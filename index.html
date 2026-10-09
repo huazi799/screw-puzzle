@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<title>拆螺丝 · Screw Puzzle</title>
+<style>
+  html, body { margin: 0; padding: 0; height: 100%; background: #0b0f16; overflow: hidden; }
+  canvas {
+    position: fixed; inset: 0;
+    touch-action: none;
+    user-select: none; -webkit-user-select: none; -webkit-tap-highlight-color: transparent;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+<canvas id="game"></canvas>
+<!-- 全部为普通脚本（非 ES module），双击 index.html 即可本地运行，也便于以后移植到 QQ 小游戏 -->
+<script src="js/rng.js?v=25"></script>
+<script src="js/generated-levels.js?v=25"></script>
+<script src="js/audio.js?v=25"></script>
+<script src="js/levels.js?v=25"></script>
+<script src="js/game.js?v=25"></script>
+<script src="js/render.js?v=25"></script>
+<script src="js/main.js?v=25"></script>
+</body>
+</html>
